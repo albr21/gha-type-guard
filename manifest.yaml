@@ -13,7 +13,7 @@ description: |-
     - object (with specified property types)
     - any (accepts any value)
     - union (accepts any of the specified types)
-version: 0.0.0
+version: 1.0.0
 releases:
   - version: 1.0.0
     changes:
