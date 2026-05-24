@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for considering contributing to **<project-name>**! Here’s how you can help:
+Thanks for considering contributing to **gha-type-guard**! Here’s how you can help:
 
 ## How to Contribute
 1. **Fork** the repository
@@ -19,13 +19,27 @@ Thanks for considering contributing to **<project-name>**! Here’s how you can 
 - Ensure that your code passes existing tests and includes new ones for new features or fixes
 
 ## Development Environment
-<!-- Provide instructions on how to set up a development environment for the project. -->
+- Install Node.js 24 or higher
+- Install Node.js package manager (npm)
+- Set up a development environment with `npm install`
 
 ## File Architecture
-<!-- Provide an overview of the file architecture of the project, explaining the purpose of key files and directories. -->
+- The main code is in the `src` directory
+- Tests are in the `tests` directory
+
+## Building
+To build the action, run:
+
+```bash
+npm run build
+```
 
 ## Testing
-<!-- Describe the testing framework used and how to run tests. -->
+Make sure your changes pass the tests. You can run the tests with:
+
+```bash
+npm test
+```
 
 ## License
 

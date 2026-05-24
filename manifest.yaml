@@ -1,8 +1,23 @@
-name: <project-name>
+name: gha-type-guard
 description: |-
-  <project-description>
+  Action to check types at runtime using TypeScript's type system.
+
+  Supports the following types:
+    - string (with optional regex pattern)
+    - boolean
+    - integer
+    - float
+    - number (either integer or float)
+    - array (with specified item type)
+    - enum (with specified allowed values)
+    - object (with specified property types)
+    - any (accepts any value)
+    - union (accepts any of the specified types)
 version: 0.0.0
 releases:
+  - version: 1.0.0
+    changes:
+      - Initial release
   - version: 0.0.0
     changes:
       - Under development
